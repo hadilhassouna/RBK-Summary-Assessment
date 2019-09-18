@@ -59,8 +59,12 @@ function reduce(array, f, acc) {
 //wordLengths("hello its me") // [5,3,2]
 
 function wordLengths(str) {
-    // TODO: your code here 
+var str = "";
+ var word = [str.length(str)];
+ for (var = i, i<=str.length, i++);
+  return word; 
 }
+
 
 //=============================================================================
 /*                                  Q2                                    */
@@ -84,7 +88,11 @@ function countOccurrences(string, character) {
 // wordsLongerThanThree("Hello Mad World") //["Hello", "World"]
 
 function wordsLongerThanThree(str) {
-    // TODO: your code here 
+
+var str = str.legnth(str);
+if (str.length > 3) {
+  return str; 
+}
 }
 
 //=============================================================================
@@ -127,8 +135,13 @@ function repeatString(str, count) {
 // pizza.eatSlice();
 // pizza.eatSlice();
 // pizza.eatSlice();
+function makePizza(){
+  var str = ""; 
 
-// Write your code here .....
+}
+
+
+
 
 //=============================================================================
 /*                                  Q6                                      */
@@ -153,8 +166,27 @@ d- Decrement the number of "unread" books
 */
 
 // Now, to make sure that you are actually reading, make a comment below this and type: Yes I am
+yes I am;
 
 // Write your code here .....
+class ReadingList (read, unread, toRead, currentRead, readBooks, AddBook, finishBook) {
+  var read =  ;
+  var unRead =  ;
+  var toRead = [];
+  var currentRead = "";
+  var readBooks = [];
+  function AddBook (name) {
+    var toReadTotal = toRead.push();
+    console.log(toRead);
+    console.log(tatal);
+  }
+  function finishCurrentRradBook () {
+    var readBooks = currentRead.push();
+  }
+}
+
+
+}
 
 //=============================================================================
 /*                                  Q7                                       */
@@ -216,13 +248,21 @@ d- Decrement the number of "unread" books
 //================================================================================
 // Theoretical questions.
 // 1- In your own words,Why do we use Closures ?
+I dont know actually, I didn't reach this field of material
 
 // 2- In OOP, what does "this" refer to ?
+as previous answer :\
 
 // 3- What is jQuery?
+it is a big library incloding a lots of fuctions, it helps pragrammers to create short and small orders in 
+coding istead og long sentences.
 
 // 4- what is the diffrence between Closure's methods and The OOP's methods?
+---
 
+
+sorry for bad answers but I arrived before 2 days and I dont have any previous feedBacks about brogramming
+lick the athers, I will try to all my best in the becoming week in shaa allah :);
 
 
 
